@@ -9,17 +9,17 @@
         <q-space />
 
         <div class="q-gutter-md gt-sm">
-          <q-btn flat label="Home" color="white" />
-          <q-btn flat label="Features" color="white" />
-          <q-btn flat label="Pricing" color="white" />
-          <q-btn flat label="Contact" color="white" />
+          <q-btn flat label="Home" color="white" to="/" />
+          <q-btn flat label="Features" color="white" to="/features" />
+          <q-btn flat label="Pricing" color="white" to="/pricing" />
+          <q-btn flat label="Contact" color="white" to="/contact" />
         </div>
 
         <q-space />
 
         <div>
-          <q-btn outline label="Log In" color="white" class="q-mr-sm" />
-          <q-btn unelevated label="Get Started" color="primary" text-color="white" />
+          <q-btn outline label="Log In" color="white" class="q-mr-sm" to="/login" />
+          <q-btn unelevated label="Get Started" color="primary" text-color="white" to="/signup" />
         </div>
       </q-toolbar>
     </q-header>
